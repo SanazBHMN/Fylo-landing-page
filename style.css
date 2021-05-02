@@ -5,6 +5,15 @@
   box-sizing: border-box;
 }
 
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #5352ed;
+  border-radius: 3px;
+}
+
 body {
   margin: 0;
   color: #fff;
@@ -199,7 +208,7 @@ form p {
 
 /* footer */
 footer {
-  background-color:  hsl(216, 53%, 9%);
+  background-color: hsl(216, 53%, 9%);
   padding: 150px 0 50px;
 }
 
